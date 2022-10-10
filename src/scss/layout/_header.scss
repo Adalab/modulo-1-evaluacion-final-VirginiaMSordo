@@ -3,7 +3,7 @@
     height: 100vh;
      //en % no funciona porque no hay tamaño establecido para tomar de referencia.//
     color:$color-headerandfooter;
-    background-image: url(/assets/images/cover.png);
+    background-image: url("http://beta.adalab.es/modulo-1-evaluacion-final-VirginiaMSordo/assets/images/cover.png");
     //imagen bg la dirección empieza sin el ./
     background-size: cover;
     background-position: center center;
@@ -41,7 +41,7 @@
         font-weight: bold;
         margin-bottom: 10px;
         white-space: pre-line;
-        text-shadow: 10px 10px 5px rgba (3, 3, 3, 3)   
+        
     }
 }
    
