@@ -1,0 +1,75 @@
+.header{
+    width: 100vw;
+    height: 100vh;
+     //en % no funciona porque no hay tamaño establecido para tomar de referencia.//
+    color:$color-headerandfooter;
+    background-image: url(/assets/images/cover.png);
+    //imagen bg la dirección empieza sin el ./
+    background-size: cover;
+    background-position: center center;
+    //imagen adapta el tamaño para verse entera.
+    display: flex; 
+    justify-content: center;
+    align-items: flex-end;
+    
+    //el contenedor header article pasará a posición centro abajo (justi horizontal/align vertical)
+    
+}
+.header__menu {
+    background-color:#0271bc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    &--img{
+        height: 2rem;
+    }
+  }  
+.header__article {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   //le doy flex a esta caja para que sus tres hijos la tomen como referencia
+   width: 50%;
+   margin-bottom: 25px;
+   //No consigo que las letras de este cajón crezcan con la pantalla.***************
+    &--title {
+        text-transform: uppercase;
+        font-family: $font-familyRobotoSlab;
+        font-size: 4.2rem;
+        text-align: center;
+        line-height: 1.4;
+        //separa las líneas al darle un valor al interlineado
+        font-weight: bold;
+        margin-bottom: 10px;
+        white-space: pre-line;
+        text-shadow: 10px 10px 5px rgba (3, 3, 3, 3)   
+    }
+}
+   
+   .header__article--p {
+        font-size:1.6rem ;
+        white-space: nowrap;
+        //toda la frase en una línea
+        font-family:$font-familyRoboto ;
+   }
+    .header__article--icon {
+        background-color:$color-headerandfooter ;
+        width: 37px;
+        height: 37px;
+        text-align: center;
+        border-radius: 50%;
+        line-height: 45px;
+        margin-top: 20px;
+}
+        
+   
+       
+
+
+
+
+
+//margin padding siempre con px
+// al título como lo alinee no le doy margin más que por abajo ya que arriba y los lados lo cumple la alineación.
+
+

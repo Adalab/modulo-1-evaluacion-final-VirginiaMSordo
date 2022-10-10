@@ -1,12 +1,180 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="robots" content="index, follow" />
+  <!-- añado robots para permitir que los robots me encuentren -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="description" content="In hac habitasse platea dictumst." />
+  <!-- añado descripción para que el buscador muestre más info de mi página -->
+  <title>Anonymous Proxy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  
 </head>
 <body>
+
+  <!-- EMPIEZA EL HEADER-HERO (FLEXBOX) -->
+  <header id="header" class="header">
+      <div class="header__menu">
+          <a href="https://adalab.es/">
+              <img title="Adalab" class="header__menu--img" src="./assets/images/menu.png" alt="menu desplegable" />
+          </a>
+      </div>
+      <article class="header__article">
+          <h1 class="header__article--title">Anonymous &NewLine;Proxy</h1>
+          <p class="header__article--p">In hac habitasse platea dictumst.</p>
+          <!-- podía ser un título también pero no me parecío por el tono del resto de la pag. -->
+          <div class="header__article--icon">
+              <a href="./index.html#section2">
+              <img title="Ir a sección dos" src="./assets/images/ico-scroll-down.png" alt="enlace a la sección dos"> 
+              </a>
+          </div>
+      </article>
+  </header>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- icono hamb. incluído como imagen con un link.La imagen va metida dentro del link.  AÑADIR LA CLASE Y AÑADIR EL LINK. INCLUIR ENLACE A ADALAB más BOTÓN SOMBREADO AL PASAR POR ENCIMA. (botón fijo)-->
+
+  <!-- Decido añadir el hero en forma de artículo ya que como sección me parece que se adaptan mejor las dos grandes siguientes -->
+
+  <!-- Al incluir title en la imagen, hace que el cursos nos ofrezca un tip de lo que es -->
+
+  <!-- Enlazo con # a la parte del index que me interesa que me lleve.  He visto otra opción que sería añadirlo como: <button type="button" class="" onclick="url destino" nombre del botón <button/> Semánticamente button hace la seciión hero más accesible. Para mi web la etiqueta podría ser: <button type="button" class="" onclick="index.html#3-reasons-to-purchase" <img src="" alt="icono enlace a la sección dos"> <button />   -->
+
+  <main>
+    <!-- EMPIEZA SECCIÓN 1 (LIBRE) -->
+    <section class="section1">
+        <p class="section1__p1">Insomnia tips</p>
+        
+        <h2 class="section1__h2" >Looking through a window</h2> 
+
+        <P class="section1__p2">Donec accumsan,nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper
+            sodales rutrum.</P>
+        <div class="section1__go">
+            <a href="https:/adalab.es/" class="section1__go--p">
+                <p  title="Adalab">Go</p>
+            </a>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Insomnia Tips estuve también pensando en hacerlo como título 3 o 4. -->
+    <!-- h2 ponerle mayúsculas en CSS -->
+    <!--El enlace pense meterlo con button type pero no me salía así que decidí ponerlo como enlace. DAR ESTILO A LA CAJA Y AL GO Y AÑADIRLE HOVER -->
+
+    <!-- EMPIEZA SECCIÓN 2 (GRID) -->
+    <section id="section2" class="section2">
+        <h2 class="section2__h2">3 reasons to purchase</h2>
+        <!-- poner en mayúsculas las iniciales.  -->
+        <article class="section2__article1">
+            <h3>Ut sed metus</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+        </article>
+
+        <article class="section2__article2">
+            <h3>Curabitur ac erat</h3>
+            <p>Mauris mattis urna quis lorem molestie.</p>
+        </article>
+
+        <article class="section2__article3">
+            <h3>Morbi dictum</h3>
+            <p>Aliquam in dolor et dolor tincidunt.</p>
+        </article>
+
+        <div class="section2__div">
+            <a href="https:/adalab.es/" class="section2__div--a">
+                <p title="Adalab" class="">More reasons</p>
+            </a>
+        </div>
+
+    </section>
+
+  </main>
+
+  <!-- EMPIEZA EL FOOTER (FLEX) -->
+  
+  <footer class="footer">
+      <div class="main-arrow">
+          <a href="./index.html#header"><img class="main-arrow__a" src="./assets/images/ico-arrow.png"
+                  alt="icono enlace al inicio"> </a>
+      </div>
+      <nav>
+          <ul class="footer-nav1__ul1">
+              <li>
+                  <a class="footer-a" href="https:/adalab.es/">Articles</a>
+              </li>
+              <li >
+                  <a class="footer-a" href="https:/adalab.es/">Books</a>
+              </li>
+              <li>
+                  <a class="footer-a" href="https:/adalab.es/">Events</a>
+              </li>
+              <li>
+                  <a class="footer-a" href="https:/adalab.es/">Reasons</a>
+              </li>
+              <li>
+                  <a class="footer-a" href="https:/adalab.es/">Tips</a>
+              </li>
+          </ul>
+      </nav>
+      <nav>
+          <ul class="footer-nav1__ul2">
+              <li>
+                  <a class="footer-a" href="https:/adalab.es/">Twitter</a>
+              </li>
+              <li>
+                  <a class="footer-a" href="https:/adalab.es/">Instagram</a>
+              </li>
+              <li>
+                  <a class="footer-a" href="https:/adalab.es/">Mastodon.social</a>
+              </li>
+          </ul>
+      </nav>
+      <div class="footer-div2">
+          <span>&copy;2022</span>
+          <span>We<img src="./assets/images/icone-de-coeur-orange-1.png" alt="corazon" />components</span>
+      </div>
+  </footer>
   
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+<!-- HEADER: Ya que es una única imagen e incluye el título principal he añadido el hero dentro del header en vez de en el main como suele ser habitual. También por que toda página ha de tener su header. La imagen de fondo, tal como aprendimos en el proyecto grupal, queda más responsive si la añado en CSS directamente como imagen background. -->
+
+<!-- Incluyo la imagen de la flecha fuera de las sección 2  y el footer. -->

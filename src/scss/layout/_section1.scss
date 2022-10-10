@@ -1,0 +1,57 @@
+
+.section1 {
+    width: 100vw;
+    height: 37rem ;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.section1__p1 {
+    color: #8ccbea ;
+    font-family:$font-familyRoboto;
+    font-size: 1.2rem;
+    width: 8.8rem;
+    height: 2.0rem;
+    text-transform: capitalize;
+    //padding-bottom: 10px ;
+    
+  
+}
+.section1__h2{
+    font-family: $font-familyRobotoSlab;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 25rem;
+    height: 6rem;
+}
+.section1__p2 {
+    color: #4a4a4a;
+    font-family: $font-familyRoboto;
+    font-size: 1.8rem;
+    width: 29rem;
+    height: 8rem;
+    text-align: left;
+
+}
+.section1__go{
+    background-color:$color-headerandfooter ;
+    font-size: 2rem;
+    width: 7.5rem;
+    height: 4.5rem;
+    text-align: center;
+    border-radius: 40%;
+    line-height: 40px;
+    margin-top: 20px;
+    border: solid $color-principal 2px;
+    
+        
+} 
+.section1__go--p{
+text-decoration: none;
+color: $color-principal;
+font-weight: bold;
+
+}
