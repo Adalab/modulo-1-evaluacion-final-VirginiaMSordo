@@ -21,7 +21,7 @@
     top: 0;
     left: 0;
     &--img{
-        height: 2rem;
+        height: 3rem;
     }
   }  
 .header__article {
@@ -30,7 +30,7 @@
    align-items: center;
    //le doy flex a esta caja para que sus tres hijos la tomen como referencia
    width: 50%;
-   margin-bottom: 25px;
+   margin-bottom: 40px;
     &--title {
         text-transform: uppercase;
         font-family: $font-familyRobotoSlab;
@@ -39,17 +39,18 @@
         line-height: 1.4;
         //separa las líneas al darle un valor al interlineado
         font-weight: bold;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
         white-space: pre-line;
         
     }
 }
    
    .header__article--p {
-        font-size:1.6rem ;
+        font-size: 1.6rem ;
         white-space: nowrap;
         //toda la frase en una línea
         font-family:$font-familyRoboto ;
+        padding-bottom: 60px;
    }
     .header__article--icon {
         background-color:$color-headerandfooter ;
@@ -58,7 +59,8 @@
         text-align: center;
         border-radius: 50%;
         line-height: 45px;
-        margin-top: 20px;
+        margin-top: 30px;
+        
 }
         
    

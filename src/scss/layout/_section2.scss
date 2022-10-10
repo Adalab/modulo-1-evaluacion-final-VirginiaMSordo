@@ -22,13 +22,13 @@
 
 .section2__article{
     line-height: 1.5;
+    &--h3 {
+        font-family: $font-familyRobotoSlab;
+    }
 }
 
-.section2__article--h3 {
-    font-family: $font-familyRobotoSlab; 
-    
-}
-.section2__article--p {
+
+.section2_box1 .section2__article--p {
     white-space: pre-line;    
 }
 
@@ -41,12 +41,13 @@
     text-align: center;
     border-radius: 2.2rem;
     line-height: 35px;
-    margin-left: 22%;
+    margin-left: 70px;
     border: solid $color-principal 2px;
     &--a {
         text-decoration: none;
         color: $color-headerandfooter;
         font-weight: bold;
+       
         
     }
 }

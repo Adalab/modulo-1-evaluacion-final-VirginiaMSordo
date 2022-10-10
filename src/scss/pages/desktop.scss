@@ -1,0 +1,78 @@
+@media all and (min-width: 1200px) {
+  .header__article--title {
+    font-size: 10rem;
+  }
+   .header__article--icon {
+    margin-bottom: 10px;
+ }
+  .header__article--p {
+        white-space: nowrap;
+ }
+ .header__article--icon {
+    margin-bottom: 0px;
+ }
+
+ // SECTION 1---------------------
+.section1 {
+    height: 36rem ;
+    padding-left: 270px;
+    padding-top: 65px;
+}
+.section1__p1 {
+    font-size: 1.6rem;
+    white-space: nowrap;
+}
+.section1__h2{
+    font-size: 3.2rem;
+    white-space: nowrap;
+   
+}
+.section1__p2 {
+    margin-top: 30px;
+    width: 73rem;
+}
+.section1__go{
+    width: 16rem;  
+    margin-bottom: 50px;
+}
+
+// SECTION 2 --------------------
+
+.section2 {
+    height: 42rem ;
+    &__h2 {
+        font-size: 3.2rem;
+ }
+}
+.section2__article{
+  margin-left: 30px ;
+   width: 35rem;
+}
+.section2__div {
+  margin-left: 480PX;
+  width: 24rem;
+}
+
+
+// FOOTER ----------------------
+.footer{
+    justify-content: space-evenly;
+    
+}
+.footer-div2{
+   padding-left: 160px;
+}
+.footer-box2{
+  padding-right: 380px;
+}
+
+
+
+
+
+
+
+ }
+
+
+

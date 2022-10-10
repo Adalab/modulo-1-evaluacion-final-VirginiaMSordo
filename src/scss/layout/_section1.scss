@@ -12,10 +12,12 @@
 .section1__p1 {
     color: #8ccbea ;
     font-family:$font-familyRoboto;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     width: 8.8rem;
     height: 2.0rem;
     text-transform: capitalize;
+    margin-bottom: 5px;
+
 }
 .section1__h2{
     font-family: $font-familyRobotoSlab;
@@ -42,7 +44,7 @@
     width: 7.5rem;
     height: 4.5rem;
     text-align: center;
-    border-radius: 40%;
+    border-radius: 22.5px;
     line-height: 40px;
     margin-top: 40px;
     border: solid $color-principal 2px;
