@@ -21,11 +21,14 @@
     }
 }
 
+
 .section2__article--h3 {
-    font-family: $font-familyRobotoSlab;  
+    font-family: $font-familyRobotoSlab; 
+    
 }
 .section2__article--p {
     white-space: pre-line;
+    
 }
 //estuve intentando hacer mixin y llamar a los artículos para cambiar sus p y sus h3 pero no me salió.
 .section2__div {
