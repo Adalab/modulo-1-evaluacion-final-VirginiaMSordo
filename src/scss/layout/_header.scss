@@ -31,7 +31,6 @@
    //le doy flex a esta caja para que sus tres hijos la tomen como referencia
    width: 50%;
    margin-bottom: 25px;
-   //No consigo que las letras de este cajón crezcan con la pantalla.***************
     &--title {
         text-transform: uppercase;
         font-family: $font-familyRobotoSlab;

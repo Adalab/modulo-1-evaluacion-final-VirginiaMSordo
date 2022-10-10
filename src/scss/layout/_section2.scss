@@ -1,3 +1,48 @@
 .section2 {
     background-color: #eff9ff;
+    width: 100%;
+    height: 58rem ;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: $font-familyRoboto;
+    display: grid;
+    grid-template-rows: 15% 20% 20% 20% 25%;
+    &__h2{
+        margin: top 2.9rem;
+        font-size: 2.4rem;
+        font-weight: bold;
+        font-family: $font-familyRobotoSlab;
+        align-self: center;
+        //se alinea en el centro del espacio disponible, dejado por el resto de cajas
+        margin-top: 10px; 
+        margin-bottom: 10px; 
+        text-transform: capitalize;
+      
+    }
 }
+
+.section2__article--h3 {
+    font-family: $font-familyRobotoSlab;  
+}
+.section2__article--p {
+    white-space: pre-line;
+}
+//estuve intentando hacer mixin y llamar a los artículos para cambiar sus p y sus h3 pero no me salió.
+.section2__div {
+   background-color:$color-principal ;
+    font-size: 2rem;
+    width: 18rem;
+    height: 4.5rem;
+    text-align: center;
+    border-radius: 2.2rem;
+    line-height: 40px;
+    margin-left: 70px;
+    border: solid $color-principal 2px;
+    &--a {
+        text-decoration: none;
+        color: $color-headerandfooter;
+        font-weight: bold;
+        
+    }
+}
+

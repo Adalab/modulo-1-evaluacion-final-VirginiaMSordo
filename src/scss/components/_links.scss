@@ -1,1 +1,11 @@
- 
+//hover de toda la página
+a {
+    &:hover {
+        color: blue;
+    }
+    .footer & {
+        &:hover {
+            color: red;
+        }
+    }
+ }

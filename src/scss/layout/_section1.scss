@@ -5,8 +5,9 @@
     display: flex;
     flex-direction: column;
     padding-left: 20px;
-    padding-top: 40px;
+    padding-top: 55px;
 }
+
 
 .section1__p1 {
     color: #8ccbea ;
@@ -15,9 +16,6 @@
     width: 8.8rem;
     height: 2.0rem;
     text-transform: capitalize;
-    //padding-bottom: 10px ;
-    
-  
 }
 .section1__h2{
     font-family: $font-familyRobotoSlab;
@@ -27,6 +25,7 @@
     width: 25rem;
     height: 6rem;
 }
+
 .section1__p2 {
     color: #4a4a4a;
     font-family: $font-familyRoboto;
@@ -34,6 +33,7 @@
     width: 29rem;
     height: 8rem;
     text-align: left;
+    margin-top: 15px;
 
 }
 .section1__go{
@@ -44,14 +44,12 @@
     text-align: center;
     border-radius: 40%;
     line-height: 40px;
-    margin-top: 20px;
+    margin-top: 40px;
     border: solid $color-principal 2px;
-    
-        
-} 
-.section1__go--p{
-text-decoration: none;
-color: $color-principal;
-font-weight: bold;
+    &--p{
+        text-decoration: none;
+        color: $color-principal;
+        font-weight: bold;
 
-}
+    }       
+} 
