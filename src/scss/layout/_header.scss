@@ -12,8 +12,7 @@
     justify-content: center;
     align-items: flex-end;
     
-    //el contenedor header article pasará a posición centro abajo (justi horizontal/align vertical)
-    
+    //el contenedor header article pasará a posición centro abajo (justi horizontal/align vertical)   
 }
 .header__menu {
     background-color:#0271bc;
@@ -45,21 +44,21 @@
     }
 }
    
-   .header__article--p {
-        font-size: 1.6rem ;
-        white-space: nowrap;
-        //toda la frase en una línea
-        font-family:$font-familyRoboto ;
-        padding-bottom: 60px;
+.header__article--p {
+    font-size: 1.6rem ;
+    white-space: nowrap;
+    //toda la frase en una línea
+    font-family:$font-familyRoboto ;
+    padding-bottom: 60px;
    }
-    .header__article--icon {
-        background-color:$color-headerandfooter ;
-        width: 37px;
-        height: 37px;
-        text-align: center;
-        border-radius: 50%;
-        line-height: 45px;
-        margin-top: 30px;
+.header__article--icon {
+    background-color:$color-headerandfooter ;
+    width: 37px;
+    height: 37px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 45px;
+    margin-top: 30px;
         
 }
         
@@ -70,7 +69,6 @@
 
 
 
-//margin padding siempre con px
-// al título como lo alinee no le doy margin más que por abajo ya que arriba y los lados lo cumple la alineación.
+
 
 

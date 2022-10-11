@@ -1,16 +1,21 @@
 @media all and (min-width: 1200px) {
-  .header__article--title {
-    font-size: 10rem;
-  }
-   .header__article--icon {
+.header__article--title {
+    font-size: 10rem;  
     margin-bottom: 10px;
- }
-  .header__article--p {
-        white-space: nowrap;
- }
- .header__article--icon {
+}
+.header__article {
+    margin-bottom: 20px;
+}
+.header__article--p {
+    white-space: nowrap;
+}
+
+.header__article--icon {
     margin-bottom: 0px;
- }
+    margin-top: 20px;
+}
+
+
 
  // SECTION 1---------------------
 .section1 {
@@ -45,11 +50,11 @@
  }
 }
 .section2__article{
-  margin-left: 30px ;
+  margin-left: 20px ;
    width: 35rem;
 }
 .section2__div {
-  margin-left: 480PX;
+  margin-left: 450PX;
   width: 24rem;
 }
 
@@ -59,6 +64,7 @@
     justify-content: space-evenly;
     
 }
+
 .footer-div2{
    padding-left: 160px;
 }
@@ -66,13 +72,7 @@
   padding-right: 380px;
 }
 
-
-
-
-
-
-
- }
+}
 
 
 

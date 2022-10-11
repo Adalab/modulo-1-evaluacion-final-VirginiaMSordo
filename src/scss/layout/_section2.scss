@@ -28,13 +28,8 @@
 }
 
 
-.section2_box1 .section2__article--p {
-    white-space: pre-line;    
-}
-
-//estuve intentando hacer mixin y llamar a los artículos para cambiar sus p y sus h3 pero no me salió.
 .section2__div {
-   background-color:$color-principal ;
+   background-color:$color-principal;
     font-size: 2rem;
     width: 18rem;
     height: 4.3rem;
@@ -47,8 +42,7 @@
         text-decoration: none;
         color: $color-headerandfooter;
         font-weight: bold;
-       
-        
+          
     }
 }
 
