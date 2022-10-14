@@ -7,7 +7,7 @@ Proyecto para la creación de una página web utilizando las herramientas vistas
 Se podrá acceder al proyecto desde la siguiente dirección:
 http://beta.adalab.es/modulo-1-evaluacion-final-VirginiaMSordo/
 
-Para una correcta visualización del mismo recomiendo acceder desde el inspector:
+Para una correcta visualización del mismo recomiendo acceder desde el inspector en Firefox:
 
 - móvil: 319 x 800 53%
 - tablet: 768 x 800 50%
@@ -15,9 +15,11 @@ Para una correcta visualización del mismo recomiendo acceder desde el inspector
 
 (Dependiendo del alto y el % la posición de los elementos puede verse afecta. Se corregiría recolocando los tamaños de las cajas)
 
+ *** cambiado a minwith 768
+
 ## HEADER
 
-El header está maquetado con flexbox. Ocupa todo el ancho de la venta, para lo cual, la imagen la se ha puesto como backgroud img, lo que permite una gran flexibilidad y adaptación de la misma.
+El header está maquetado con flexbox. Ocupa todo el ancho de la venta, para lo cual, la imagen la se ha puesto como backgroud img, lo que permite una gran flexibilidad y adaptación de la misma. (<a href=""><img title="Adalab"class="img" src="" alt="BG" /></a>)
 En este caso, el hero está incluído dentro del header, ya que al mostrarse en la misma página que el título tiene más sentido semánticamente.
 El botón menú de arriba a la izq permanece fijo al scroll y enlaza con una url externa, la página de Adalab.
 La flecha inferior de la pantalla redirecciona a la sección dos de la misma web.
@@ -26,13 +28,19 @@ La flecha inferior de la pantalla redirecciona a la sección dos de la misma web
 
 La sección uno está maquetada con flexbox.
 Insomnia Tips estuve también pensando en hacerlo como título 3 o 4.
-El botón GO incluye hoover y enlaza con la web de Adalab.
-El enlace pensé también meterlo como <button> pero al final me decanté por enlace.
+El botón GO incluye hoover y enlaza con la web de Adalab. Podía haber dado un incluído ahora :
+&:hover {
+transform: scale(1.1, 1.1);
+transition: transform 2s;
 
 ## SECCIÓN 2
 
 La sección dos está maquetada con Grid.
 El link More reasons tiene hover como se pedía y enlaza a la web de Adalab.
+Añadido transform en More reasons
+&:hover {
+transform: scale(1.1, 1.1);
+transition: transform 2s;
 
 ## FOOTER
 

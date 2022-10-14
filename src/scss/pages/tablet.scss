@@ -1,4 +1,4 @@
- @media all and (min-width: 320px) {
+ @media all and (min-width: 768px) {
 
 .header__menu--img {
     height: 4.4rem;
@@ -38,8 +38,9 @@
 .section1__p2 {
    font-size: 2rem;
    width: 69rem;
-    height: 6rem;
-    margin-top: 20px;
+   height: 6rem;
+   line-height: 1.5;
+   margin-top: 20px;
 }
 .section1__go{
     width: 9rem;
@@ -47,11 +48,7 @@
        
 }
 
-.main-arrow{
-    position: absolute;
-    left: 45%;
-    transform: translateY(-300%);
-}
+
 
 
 
@@ -82,7 +79,8 @@
     width: 21rem;
     grid-column: 1/ span3;
     margin-top: 130px;
-    margin-left: 280px;
+    margin-left: 35%;
+    //se mantiene en el centro aunque crezca
 }
 
 
@@ -112,7 +110,11 @@
 .footer-nav1__ul1{
     align-items: flex-start;
 }
-
+.main-arrow{
+    position: absolute;
+    left: 45%;
+    transform: translateY(-300%);
+}
 }
 
 

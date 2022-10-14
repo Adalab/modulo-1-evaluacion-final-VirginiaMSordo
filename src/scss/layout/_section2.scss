@@ -1,7 +1,6 @@
 .section2 {
     background-color: #eff9ff;
-    width: 100vw;
-    height: 56rem ;
+    height: 62rem;
     text-align: center;
     font-size: 1.8rem;
     font-family: $font-familyRoboto;
@@ -20,13 +19,16 @@
     }
 }
 
-.section2__article{
+.section2__article {
     line-height: 1.5;
     &--h3 {
         font-family: $font-familyRobotoSlab;
     }
 }
+.section2__article--p {
+    white-space: pre-line;    
 
+}
 
 .section2__div {
    background-color:$color-principal;
@@ -36,13 +38,18 @@
     text-align: center;
     border-radius: 2.2rem;
     line-height: 35px;
-    margin-left: 70px;
+    margin-left: 25%;
     border: solid $color-principal 2px;
+      &:hover {
+          transform: scale(1.1, 1.1);
+          transition: transform 2s; 
+    } 
+
     &--a {
         text-decoration: none;
         color: $color-headerandfooter;
         font-weight: bold;
-          
-    }
+        
+      
 }
-
+}
